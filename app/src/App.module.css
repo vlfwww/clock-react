@@ -1,0 +1,42 @@
+.App {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+.main {
+  width: 400px;
+  height: 301px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: center;
+  border-radius: 25px;
+  border: rgba(156, 173, 206, 1) solid 1px;
+  box-shadow: -4px -4px 12px 0px rgba(156, 173, 206, 1);
+  & img {
+    width: 66.66666412353516px;
+    height: 66.66666412353516px;
+    margin-top: 48px;
+  }
+  & h1 {
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: right;
+    vertical-align: bottom;
+    color: rgba(156, 173, 206, 1);
+    margin: 42px 0 8px;
+  }
+  & p {
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 3%;
+    text-align: right;
+    vertical-align: bottom;
+    color: rgba(128, 128, 128, 1);
+  }
+}
